@@ -37,7 +37,7 @@ class Calculator(QWidget):
         self.setWindowIcon(QIcon('icon.png'))
         self.resize(256, 256)
         self.show()
-    
+
     def activateMessage(self):  # button click handler
         # QMessageBox.information(self, "information", "Button clicked!")
         self.te1.appendPlainText("Button clicked!")
