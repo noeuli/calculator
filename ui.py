@@ -39,8 +39,3 @@ class View(QWidget):
 
     def clearMessage(self): # button 2 handler
         self.te1.clear()
-
-if __name__=='__main__':
-    app = QApplication(sys.argv)
-    view = Calculator()
-    sys.exit(app.exec_())
